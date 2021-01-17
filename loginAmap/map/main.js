@@ -1146,6 +1146,10 @@ link.addEventListener('click', function(e) {
     if(prop.website) {
       details.innerHTML += "<h3>" + prop.website;
     }
+
+    if(prop.icon) {
+      details.innerHTML += "#" + prop.icon;
+    }
   }
 }
 
